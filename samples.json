@@ -1,0 +1,197 @@
+[
+  {
+    "name": "silent_loop_bounded_zero",
+    "input": {
+      "n": 3,
+      "start": 0,
+      "alphabet": [
+        "a",
+        "b"
+      ],
+      "edges": [
+        [
+          0,
+          "a",
+          0
+        ],
+        [
+          0,
+          "fault",
+          1
+        ],
+        [
+          1,
+          "tau",
+          1
+        ],
+        [
+          1,
+          "b",
+          2
+        ],
+        [
+          2,
+          "b",
+          2
+        ]
+      ]
+    }
+    
+  },
+  {
+    "name": "asynchronous_and_nondeterministic",
+    "input": {
+      "n": 7,
+      "start": 0,
+      "alphabet": [
+        "a",
+        "b",
+        "c"
+      ],
+      "edges": [
+        [
+          0,
+          "tau",
+          1
+        ],
+        [
+          1,
+          "a",
+          1
+        ],
+        [
+          1,
+          "fault",
+          2
+        ],
+        [
+          2,
+          "tau",
+          3
+        ],
+        [
+          3,
+          "a",
+          4
+        ],
+        [
+          4,
+          "b",
+          5
+        ],
+        [
+          5,
+          "c",
+          5
+        ],
+        [
+          1,
+          "a",
+          6
+        ],
+        [
+          6,
+          "b",
+          1
+        ]
+      ]
+    }
+    
+  },
+  {
+    "name": "two_cyclic_explanations_finite_overlap",
+    "input": {
+      "n": 6,
+      "start": 0,
+      "alphabet": [
+        "a",
+        "b"
+      ],
+      "edges": [
+        [
+          0,
+          "tau",
+          1
+        ],
+        [
+          0,
+          "fault",
+          4
+        ],
+        [
+          1,
+          "a",
+          1
+        ],
+        [
+          1,
+          "b",
+          2
+        ],
+        [
+          2,
+          "a",
+          2
+        ],
+        [
+          2,
+          "b",
+          3
+        ],
+        [
+          3,
+          "a",
+          3
+        ],
+        [
+          4,
+          "a",
+          5
+        ],
+        [
+          5,
+          "b",
+          4
+        ]
+      ]
+    }
+  },
+  {
+    "name": "positive_cycle_requires_hidden_alignment",
+    "input": {
+      "n": 4,
+      "start": 0,
+      "alphabet": [
+        "a"
+      ],
+      "edges": [
+        [
+          0,
+          "a",
+          0
+        ],
+        [
+          0,
+          "fault",
+          1
+        ],
+        [
+          1,
+          "tau",
+          2
+        ],
+        [
+          2,
+          "a",
+          3
+        ],
+        [
+          3,
+          "tau",
+          1
+        ]
+      ]
+    }
+    
+  }
+]
