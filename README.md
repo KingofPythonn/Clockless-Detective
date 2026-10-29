@@ -41,11 +41,11 @@ Each transition is represented by a triple:
 
 Transition labels have the following meanings:
 
-| Label | Meaning | Observable? |
-|---|---|---|
-| A symbol in `alphabet` | Observable event | Yes |
-| `tau` | Internal transition | No |
-| `fault` | Fault occurrence | No |
+| Label                  | Meaning             | Observable? |
+| ---------------------- | ------------------- | ----------- |
+| A symbol in `alphabet` | Observable event    | Yes         |
+| `tau`                  | Internal transition | No          |
+| `fault`                | Fault occurrence    | No          |
 
 Only observable events contribute to the observer's event sequence. Internal transitions and fault occurrences are invisible.
 
@@ -53,14 +53,14 @@ The ambiguity bound counts observable events occurring after the first fault, wh
 
 ## Repository Contents
 
-| File | Description |
-|---|---|
-| `Clockless_Detective_Assignment_Academic .pdf` | Formal assignment specification |
-| `solution.py` | Python reference implementation |
-| `run_samples.py` | Script for executing the sample inputs |
-| `samples.json` | Four sample transition systems |
-| `README.md` | Project overview and usage instructions |
-| `.gitignore` | Git ignore rules for common local and generated files |
+| File                                           | Description                                           |
+| ---------------------------------------------- | ----------------------------------------------------- |
+| `Clockless_Detective_Assignment_Academic .pdf` | Formal assignment specification                       |
+| `solution.py`                                  | Python reference implementation                       |
+| `run_samples.py`                               | Script for executing the sample inputs                |
+| `samples.json`                                 | Four sample transition systems                        |
+| `README.md`                                    | Project overview and usage instructions               |
+| `.gitignore`                                   | Git ignore rules for common local and generated files |
 
 ## Requirements
 
@@ -189,7 +189,7 @@ Under the assignment's stated out-degree constraints, the implementation is desi
 
 ## Reference and Further Reading
 
-T.-S. Yoo and S. Lafortune, “Polynomial-Time Verification of Diagnosability of Partially Observed Discrete-Event Systems,” *IEEE Transactions on Automatic Control*, vol. 47, no. 9, pp. 1491–1495, September 2002.
+T.-S. Yoo and S. Lafortune, “Polynomial-Time Verification of Diagnosability of Partially Observed Discrete-Event Systems,” _IEEE Transactions on Automatic Control_, vol. 47, no. 9, pp. 1491–1495, September 2002.
 
 [https://doi.org/10.1109/TAC.2002.802763](https://doi.org/10.1109/TAC.2002.802763)
 
@@ -200,3 +200,18 @@ This paper provides related theoretical background on diagnosability in partiall
 - The sample runner computes results from the supplied inputs; it does not compare them against stored expected outputs.
 - The repository currently includes a reference implementation as well as the assignment materials.
 - No explicit license is currently included. Reuse and redistribution permissions should be clarified before the project is distributed under a particular license.
+
+## Author and Licensing
+
+**Assignment Designer:** Sina Abbaszadeh Balanga
+
+**Project:** The Clockless Detective
+
+Copyright © 2026 Sina Abbaszadeh Balanga.
+
+- **Source code:** MIT License — see `LICENSE-CODE`.
+- **Assignment and original educational materials:** CC BY 4.0 — see `LICENSE-DOCUMENTATION.md`.
+
+Please provide appropriate attribution to Sina Abbaszadeh Balanga when reusing or adapting the original assignment materials.
+
+Project repository: https://github.com/KingofPythonn/Clockless-Detective
