@@ -216,8 +216,9 @@ This repository contains materials distributed under two different licenses:
 
 ### License Files
 
-- [MIT License — Source Code](LICENSES/LICENSE-CODE)
-- [CC BY 4.0 — Assignment and Documentation](LICENSES/LICENSE-DOCUMENTATION.md)
+- [MIT License — Source Code](LICENSES/MIT.txt)
+- [CC BY 4.0 — Assignment and Documentation](LICENSES/CC-BY-4.0.txt)
+- [Licensing and Attribution Details](LICENSES/README.md)
 
 Commercial use, modification, and redistribution are permitted under the applicable license terms, subject to the required copyright notices and attribution.
 
