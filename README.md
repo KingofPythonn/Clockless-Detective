@@ -203,15 +203,24 @@ This paper provides related theoretical background on diagnosability in partiall
 
 ## Author and Licensing
 
-**Assignment Designer:** Sina Abbaszadeh Balanga
-
-**Project:** The Clockless Detective
+**Original Assignment Designer:** Sina Abbaszadeh Balanga
 
 Copyright © 2026 Sina Abbaszadeh Balanga.
 
-- **Source code:** MIT License — see `LICENSE-CODE`.
-- **Assignment and original educational materials:** CC BY 4.0 — see `LICENSE-DOCUMENTATION.md`.
+This repository contains materials distributed under two different licenses:
 
-Please provide appropriate attribution to Sina Abbaszadeh Balanga when reusing or adapting the original assignment materials.
+| Materials                                                     | License                                                    |
+| ------------------------------------------------------------- | ---------------------------------------------------------- |
+| Python source code (`solution.py`, `run_samples.py`)          | MIT License                                                |
+| Original assignment, README, and educational sample materials | Creative Commons Attribution 4.0 International (CC BY 4.0) |
+
+### License Files
+
+- [MIT License — Source Code](LICENSES/LICENSE-CODE)
+- [CC BY 4.0 — Assignment and Documentation](LICENSES/LICENSE-DOCUMENTATION.md)
+
+Commercial use, modification, and redistribution are permitted under the applicable license terms, subject to the required copyright notices and attribution.
+
+**Original Author:** Sina Abbaszadeh Balanga
 
 Project repository: https://github.com/KingofPythonn/Clockless-Detective
